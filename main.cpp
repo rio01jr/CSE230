@@ -1,12 +1,12 @@
 #include <iostream>
 using namespace std;
 
-void bubbleSort(double arr[], int elementCount){
+void bubbleSort(long long arr[], int elementCount){
 
 for(int i = 0; i < elementCount; i++){
     for(int j = 0; j < elementCount - 1 - i; j++){
         if(arr[j] > arr[j + 1]){
-            int tmp = arr[j];
+            long long tmp = arr[j];
             arr[j] = arr[j + 1];
             arr[j + 1] = tmp;
         }
@@ -23,7 +23,7 @@ int elementCount;
 //cout << "Enter how many elements in the array: ";
 cin >> elementCount;
 //cout << endl;
-double numArr[elementCount] = {0};
+long long numArr[elementCount] = {0};
 
 
 
