@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void bubbleSort(int arr[], int elementCount){
+void bubbleSort(double arr[], int elementCount){
 
 for(int i = 0; i < elementCount; i++){
     for(int j = 0; j < elementCount - 1 - i; j++){
@@ -23,7 +23,7 @@ int elementCount;
 //cout << "Enter how many elements in the array: ";
 cin >> elementCount;
 //cout << endl;
-int numArr[elementCount] = {0};
+double numArr[elementCount] = {0};
 
 
 
