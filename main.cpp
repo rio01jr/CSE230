@@ -22,7 +22,7 @@ int main(){
 int elementCount;
 //cout << "Enter how many elements in the array: ";
 cin >> elementCount;
-cout << endl;
+//cout << endl;
 int numArr[elementCount] = {0};
 
 
@@ -43,6 +43,7 @@ bubbleSort(numArr, elementCount);
 for(int i = 0; i < elementCount; i++){
     cout << numArr[i] << " ";
 }
+cout << endl;
 
 return 0;
 }
