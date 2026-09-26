@@ -9,8 +9,11 @@ int main() {
 vector<long long> arr;
 long long num = 0;
 //int index = 0;
-while(cin >> num){
+cin >> num;
+while(!cin.eof()){
+    
     arr.push_back(num);
+    cin >> num;
     //cout << "you entered: " << arr.at(index) << endl;
     //index++;
 }
