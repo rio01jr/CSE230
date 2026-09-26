@@ -7,22 +7,23 @@ int main() {
 //cout << "enter an array of numbers" << endl;
 
 vector<long long> arr;
-long long num = 0;
+long long num = 1;
 //int index = 0;
 
-while(cin >> num){
+while(num != '\0'){
+    cin >> num;
     arr.push_back(num);
     
     //cout << "you entered: " << arr.at(index) << endl;
     //index++;
 }
-cout << "size before: " << arr.size() << endl;
+//cout << "size before: " << arr.size() << endl;
 /*for(auto a : arr){
     cout << a << " ";
 }
 cout << endl;*/
 arr = MERGE_SORT(arr);
-cout << "size after: " << arr.size() << endl;
+//cout << "size after: " << arr.size() << endl;
 for(const auto &a : arr){
     cout << a << " ";
 }
