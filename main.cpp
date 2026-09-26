@@ -24,7 +24,7 @@ arr = MERGE_SORT(arr);
 for(auto a : arr){
     cout << a << " ";
 }
-
+cout << endl;
 
 return 0;
 }
