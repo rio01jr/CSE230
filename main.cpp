@@ -4,7 +4,7 @@ using namespace std;
 #include "merge_sort.h"
 
 int main() {
-cout << "enter an array of numbers" << endl;
+//cout << "enter an array of numbers" << endl;
 
 vector<long long> arr;
 long long num = 0;
