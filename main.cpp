@@ -24,6 +24,7 @@ while(cin >> num){
 cout << endl;*/
 arr = MERGE_SORT(arr);
 //cout << "size after: " << arr.size() << endl;
+arr.at(arr.size() - 1) = '\0';
 for(const auto &a : arr){
     cout << a << " ";
 }
