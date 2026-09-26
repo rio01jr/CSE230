@@ -21,7 +21,7 @@ while(cin >> num){
     cout << a << " ";
 }
 cout << endl;*/
-arr = MERGE_SORT(arr);
+//arr = MERGE_SORT(arr);
 
 for(const auto &a : arr){
     cout << a << " ";
