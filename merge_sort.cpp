@@ -34,7 +34,7 @@ vector<long long> MERGE_SORT(vector<long long> arr){
     if(arrSize <= 1){
         return arr;
     }
-    long long mid = arrSize / 2;
+    size_t mid = arrSize / 2;
     vector<long long> Left = MERGE_SORT(vector<long long>(arr.begin(), arr.begin() + mid));
     vector<long long> Right = MERGE_SORT(vector<long long>(arr.begin() + mid, arr.end()));
 

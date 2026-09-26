@@ -7,11 +7,11 @@ int main() {
 //cout << "enter an array of numbers" << endl;
 
 vector<long long> arr;
-long long num = 1;
+long long num = 0;
 //int index = 0;
 
-while(num != '\0'){
-    cin >> num;
+while(cin >> num){
+    
     arr.push_back(num);
     
     //cout << "you entered: " << arr.at(index) << endl;
