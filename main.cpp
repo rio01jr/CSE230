@@ -23,7 +23,7 @@ while(!cin.eof()){
 cout << endl;*/
 arr = MERGE_SORT(arr);
 
-for(auto a : arr){
+for(const auto &a : arr){
     cout << a << " ";
 }
 cout << endl;
