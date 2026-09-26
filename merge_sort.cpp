@@ -3,7 +3,7 @@ using namespace std;
 
 vector<long long> MERGE(vector<long long> left, vector<long long> right){
     vector<long long> result;
-    int i = 0, j = 0;
+    size_t i = 0, j = 0;
     size_t leftSize = left.size();
     size_t rightSize = right.size();
 
