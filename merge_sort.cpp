@@ -1,7 +1,7 @@
 using namespace std;
 #include <vector>
 
-vector<long long> MERGE(vector<long long> left, vector<long long> right){
+vector<long long> MERGE(const vector<long long>& left, const vector<long long>& right){
     vector<long long> result;
     size_t i = 0, j = 0;
     size_t leftSize = left.size();
