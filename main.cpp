@@ -16,13 +16,13 @@ while(cin >> num){
     //cout << "you entered: " << arr.at(index) << endl;
     //index++;
 }
-//cout << "size before: " << arr.size() << endl;
+cout << "size before: " << arr.size() << endl;
 /*for(auto a : arr){
     cout << a << " ";
 }
 cout << endl;*/
 arr = MERGE_SORT(arr);
-//cout << "size after: " << arr.size() << endl;
+cout << "size after: " << arr.size() << endl;
 for(const auto &a : arr){
     cout << a << " ";
 }
