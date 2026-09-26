@@ -4,8 +4,8 @@ using namespace std;
 vector<long long> MERGE(vector<long long> left, vector<long long> right){
     vector<long long> result;
     int i = 0, j = 0;
-    int leftSize = left.size();
-    int rightSize = right.size();
+    size_t leftSize = left.size();
+    size_t rightSize = right.size();
 
     while(i < leftSize && j < rightSize){
         if (left.at(i) <= right.at(j)){
@@ -25,12 +25,12 @@ vector<long long> MERGE(vector<long long> left, vector<long long> right){
         result.push_back(right.at(j));
         j++;
     }
-    
+
     return result;
 }
 
 vector<long long> MERGE_SORT(vector<long long> arr){
-    long long arrSize = arr.size();
+    size_t arrSize = arr.size();
     if(arrSize <= 1){
         return arr;
     }
