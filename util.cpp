@@ -7,6 +7,7 @@ using namespace std;
 
 void printArray(ELEMENT **V, int size){
     //check if the array is empty
+    cout << "Instruction: PrintArray" << endl;
     if(V == NULL){
         cerr << "Error: arrray is NULL" << endl;
         return;
