@@ -1,6 +1,6 @@
 
 #include "heap.h"
-#include "Data_structures.h"
+#include "data_structures.h"
 #include <iostream>
 #include <cstdio>
 #include <utility>
@@ -144,5 +144,5 @@ void extractMin(HEAP *pHeap, ELEMENT **V)
         V[pHeap->H[1]]->pos = 1;
         minHeapify(pHeap, V, 1);
     }
-    
+
 }

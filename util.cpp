@@ -1,6 +1,6 @@
 #include "util.h"
 #include "heap.h"
-#include "Data_structures.h"
+#include "data_structures.h"
 #include <iostream>
 
 using namespace std;
