@@ -97,7 +97,7 @@ void printHeap(HEAP *pHeap, ELEMENT **V){
     if(pHeap->size == 0)
     {
         cout << "Capacity = " << pHeap->capacity << ", "
-        << "Size = " << pHeap->size << endl;
+        << "eize = " << pHeap->size << endl;
         return;
     }
         
