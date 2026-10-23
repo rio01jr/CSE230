@@ -98,14 +98,9 @@ int main(int argc, char *argv[])
         else if(instruction == "InsertIndex")
         {
             int index;
-            double key;
-            cin >> index >> key;
-            if(!key)
-            {
-                UnknownInstructions();
-                continue;
-            }
-            insertIndex(V, index, key, pHeap);
+            cin >> index;
+            
+            insertIndex(V, index, pHeap);
         }
         else{
             UnknownInstructions();

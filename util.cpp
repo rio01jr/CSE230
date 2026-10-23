@@ -44,7 +44,7 @@ void decreaseKey(ELEMENT **V, int index, double newKey, HEAP *pHeap)
 
 
 }
-void insertIndex(ELEMENT **V, int index, double key, HEAP *pHeap)
+void insertIndex(ELEMENT **V, int index, HEAP *pHeap)
 {
 
     printf("Instruction: Insert %d\n", index);
