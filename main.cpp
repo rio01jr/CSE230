@@ -1,5 +1,5 @@
 #include <iostream>
-#include "data_structures.h"
+#include "Data_structures.h"
 #include "heap.h"
 #include "util.h"
 #include <fstream>
