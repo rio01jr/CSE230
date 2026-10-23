@@ -3,3 +3,5 @@ PJ3
 *.o
 main.exe
 .vscode/
+input.txt
+output.txt
