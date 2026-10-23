@@ -100,6 +100,11 @@ int main(int argc, char *argv[])
             int index;
             double key;
             cin >> index >> key;
+            if(key == NULL)
+            {
+                UnknownInstructions();
+                return;
+            }
             insertIndex(V, index, key, pHeap);
         }
         else{
