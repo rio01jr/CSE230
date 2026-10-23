@@ -103,7 +103,7 @@ int main(int argc, char *argv[])
             if(!key)
             {
                 UnknownInstructions();
-                return;
+                continue;
             }
             insertIndex(V, index, key, pHeap);
         }
