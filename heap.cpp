@@ -116,7 +116,7 @@ void printHeap(HEAP *pHeap, ELEMENT **V){
     for(int i = 1; i <= pHeap->size; i++)
     {
         int index = pHeap->H[i];
-        cout << "H[" << i << "] = " << V[index]->key << endl;
+        cout << "H[" << i << "] = " << pHeap->H[i] << endl;
             
     }
 }
