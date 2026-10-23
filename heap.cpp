@@ -97,7 +97,7 @@ void printHeap(HEAP *pHeap, ELEMENT **V){
     if(pHeap->size == 0)
     {
         cout << "Capacity = " << pHeap->capacity << ", "
-        << "eize = " << pHeap->size << endl;
+        << "size = " << pHeap->size << endl;
         return;
     }
         
@@ -111,7 +111,7 @@ void printHeap(HEAP *pHeap, ELEMENT **V){
             }
         }*/
     cout << "Capacity = " << pHeap->capacity << ", "
-    << "Size = " << pHeap->size << endl;
+    << "size = " << pHeap->size << endl;
 
     for(int i = 1; i <= pHeap->size; i++)
     {
