@@ -95,11 +95,10 @@ int main(int argc, char *argv[])
         {
             extractMin(pHeap, V);
         }
-        else if(instruction == "InsertIndex")
+        else if(instruction == "Insert")
         {
             int index;
             cin >> index;
-            
             insertIndex(V, index, pHeap);
         }
         else{
