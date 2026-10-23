@@ -100,7 +100,7 @@ int main(int argc, char *argv[])
             int index;
             double key;
             cin >> index >> key;
-            if(key == NULL)
+            if(!key)
             {
                 UnknownInstructions();
                 return;
